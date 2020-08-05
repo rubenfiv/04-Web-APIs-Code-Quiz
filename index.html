@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Coding Quiz Challenge</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="text-left " id="highScores">
+                Highscore
+            </div>
+    
+        </div>
+
+        <div class="col-sm-6">
+            <div class="text-right " id="timer">
+                Timer
+            </div>
+        </div>
+    </div>
+     
+    <div class="container">
+
+        <div class="text-center" id="begin">
+            <h1>Coding Quiz Challenge</h1>
+
+            <p>Step up and test your coding knowledge in a timed quiz!</p>
+
+            <p>Keep in mind that wrong answers will penalize your time by 10 seconds!!</p>
+            <!-- <button id="startBtn">Start</button> -->
+            <button type="button" id="startBtn" class="btn btn-success">Start</button>
+
+        </div>
+
+            <div class="hide" id="questions">
+
+                <div id="questionTitle" class="text-left"></div>
+
+                <div class="card text-left" id="choices">
+                </div>
+
+            </div>
+
+        <div class="hide" id="initials">
+        </div>
+
+        <div class="hide" id="highScore">
+        </div>
+    </div>
+
+    <script src="script.mjs"></script>
+</body>
+
+</html>

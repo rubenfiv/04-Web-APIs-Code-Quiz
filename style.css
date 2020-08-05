@@ -1,0 +1,12 @@
+h1{
+    color: purple;
+}
+
+#questionTitle{
+    font-size: large;
+    color: purple;
+}
+
+.hide{
+    display: none;
+}
